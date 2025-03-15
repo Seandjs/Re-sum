@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>icikiwir</title>
+    <link rel="icon" href="pictures/ahay.jpeg" type="image/x-icon" />
+    <style>
+      body {
+        background-color: black;
+        overflow-y: hidden;
+      }
+
+      img {
+        animation: pulse 0.5s infinite ease-in-out;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 1;
+          transform: scale(1);
+        }
+        50% {
+          opacity: 0.9;
+          transform: scale(1.1);
+        }
+        100% {
+          opacity: 1;
+          transform: scale(1);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <audio src="pictures/jagung.mp3" autoplay loop></audio>
+    <audio src="pictures/esteh.mp3" autoplay loop></audio>
+    <img src="pictures/ahay.jpeg" alt="" width="720" height="720" />
+  </body>
+  <script>
+    var audio = document.getElementById("audio");
+    audio.buffered = 0;
+  </script>
+</html>
