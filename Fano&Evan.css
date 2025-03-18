@@ -373,7 +373,6 @@ h2::after {
   line-height: 1.5;
 }
 
-/* Footer */
 footer {
   background: rgba(22, 33, 62, 0.95);
   padding: 2rem;
@@ -387,7 +386,6 @@ footer p {
   font-size: 0.9rem;
 }
 
-/* Animations */
 @keyframes slideDown {
   from {
     transform: translateY(-100%);
@@ -425,7 +423,6 @@ footer p {
   }
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -469,7 +466,6 @@ footer p {
   }
 }
 
-/* For larger screens */
 @media (min-width: 1201px) {
   .nav a {
     font-size: 1.1rem;
